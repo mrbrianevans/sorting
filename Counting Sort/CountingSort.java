@@ -1,22 +1,18 @@
 public class CountingSort{
     public static int[] countingSort(int[] array){
         int max = 0;
-        for (int element :
-                array) {
+        for (int element : array) {
             if element > max
                     max = element;
         }
         int [] elementCount = new int[++max];
-        for (int element :
-                array) {
+        for (int element : array)
             elementCount[element]++;
-        }
         int [] sorted_array = new int[array.length];
         int position = 0;
         for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < elementCount[i]; j++) {
+            for (int j = 0; j < elementCount[i]; j++)
                 sorted_array[position] = i;
-            }
         }
         return sorted_array;
     }
