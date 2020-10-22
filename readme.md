@@ -1,17 +1,13 @@
  # Sorting algorithms
- These are algorithms I have learnt in my computer science degree, and implemented. 
+ These are some different well-known sorting algorithms, implemented in a few languages
  
  
  ### Currently available algorithms
  - Counting sort
  - Selection sort
+ - Quick sort
  
  ### I'm working on
  - Merge sort
- - Quick sort
  - Insertion sort
  - Radix sort
- 
- If you have any ideas of other sorting algorithms for me to implement, please let me know. 
- 
- I will implement these algorithms in a few different languages, so they are accessible for different applications.
