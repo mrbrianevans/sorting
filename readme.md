@@ -6,9 +6,9 @@
  - Counting sort
  - Selection sort
  - Quick sort
+ - Merge sort
  
  ### I'm working on
- - Merge sort
  - Insertion sort
  - Radix sort
 
